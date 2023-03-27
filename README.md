@@ -1,8 +1,8 @@
-# backend
+# run
 
-Folder `server` is the server, folder `client` is the client.
+Folder `server` is the server, and folder `client` is the client.
 
-Python Flask file is in `server/main.py`. First run main.py in http://127.0.0.1:5000, then `npm start`the frontend.
+Python Flask file is in `server/main.py`. First, initiate a Python virtual environment, run `server/main.py` in http://127.0.0.1:5000, then change to folder `client` and run `npm start` to start the frontend.
 
 # Getting Started with Create React App
 
