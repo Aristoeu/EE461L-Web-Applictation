@@ -4,6 +4,32 @@ Folder `server` is the server, and folder `client` is the client.
 
 Python Flask file is in `server/main.py`. First, initiate a Python virtual environment, run `server/main.py` in http://127.0.0.1:5000, then change to folder `client` and run `npm start` to start the frontend.
 
+## Create a virtual Environment
+
+Create a virtual environment:
+
+```bash
+virtualenv myenv
+```
+
+Activate the virtual environment:
+
+```bash
+source myenv/bin/activate
+```
+
+Install Flask in the virtual environment:
+
+```bash
+pip install flask
+```
+
+Now, you should be able to import Flask without any issues. To deactivate the virtual environment when you're done, just run:
+
+```bash
+deactivate
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
